@@ -18,25 +18,33 @@ ob_start();
 
 <div id="homeCarousel" class="carousel slide mb-4 shadow-sm" data-bs-ride="carousel">
     <div class="carousel-indicators">
-        <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 0"></button>
+        <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="1" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="2" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="3" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="4" aria-label="Slide 4"></button>
     </div>
 
     <div class="carousel-inner rounded">
         <div class="carousel-item active">
             <div class="bg-dark text-white text-center py-5 px-5">
+                <i class="bi bi-key fs-1"></i>
+                <h4 class="mt-2">Passcode</h4>
+                <p class="mb-4">Unlock the door with your passcode.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="bg-dark text-white text-center py-5 px-5">
                 <i class="bi bi-fingerprint fs-1"></i>
-                <h4 class="mt-2">Fingerprint &amp; Passcode</h4>
-                <p class="mb-4">Unlock the door with your fingerprint or a passcode.</p>
+                <h4 class="mt-2">Fingerprint</h4>
+                <p class="mb-4">Unlock the door with your fingerprint.</p>
             </div>
         </div>
         <div class="carousel-item">
             <div class="bg-dark text-white text-center py-5 px-5">
                 <i class="bi bi-credit-card fs-1"></i>
-                <h4 class="mt-2">Key Card &amp; Passcode</h4>
-                <p class="mb-4">Unlock the door with your key card or a passcode.</p>
+                <h4 class="mt-2">Key Card</h4>
+                <p class="mb-4">Unlock the door with your key card.</p>
             </div>
         </div>
         <div class="carousel-item">
@@ -84,8 +92,9 @@ ob_start();
             <div class="card-body">
                 <h5 class="mb-3"><i class="bi bi-unlock text-primary me-2"></i>Unlock Methods</h5>
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Fingerprint &amp; Passcode</li>
-                    <li class="list-group-item">Key Card &amp; Passcode</li>
+                    <li class="list-group-item">Passcode</li>
+                    <li class="list-group-item">Fingerprint</li>
+                    <li class="list-group-item">Key Card</li>
                     <li class="list-group-item">Smart App (Wi-Fi/Bluetooth)</li>
                     <li class="list-group-item">Face Recognition</li>
                     <li class="list-group-item">All in One</li>

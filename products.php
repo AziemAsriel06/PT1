@@ -56,11 +56,12 @@ ob_start();
                     <label for="product_method" class="form-label">Unlock Method <span class="text-danger" aria-hidden="true">*</span></label>
                     <select name="product_method" id="product_method" class="form-select" required>
                         <option value="">Select Method</option>
-                        <option value="Fingerprint">Fingerprint & Passcode</option>
-                        <option value="KeyCard">Key Card & Passcode</option>
+                        <option value="Passcode">Passcode only</option>
+                        <option value="Fingerprint">Fingerprint</option>
+                        <option value="KeyCard">Key Card</option>
                         <option value="SmartApp">Smart App (Wi-Fi/Bluetooth)</option>
                         <option value="FaceRecognition">Face Recognition</option>
-                        <option value="AllInOne">All in One (Fingerprint, Key Card, Smart App, Face Recognition)</option>
+                        <option value="AllInOne">All in One (Passcode, Fingerprint, Key Card, Smart App, Face Recognition)</option>
                     </select>
                 </div>
  
@@ -132,8 +133,76 @@ ob_start();
                     <tr>
                         <td>P001</td>
                         <td>Xiaomi Smart Lock Pro</td>
-                        <td>$1,200.00</td>
+                        <td>$700.00</td>
                         <td>Xiaomi</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning">
+                                <i class="bi bi-pencil"></i>
+                            </a>
+                            <button type="button" class="btn btn-sm btn-info text-white">
+                                <i class="bi bi-image"></i>
+                            </button>
+                            <a href="#" class="btn btn-sm btn-danger">
+                                <i class="bi bi-trash"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>P002</td>
+                        <td>Samsung SHP-DP609 Push-Pull Smart Lock</td>
+                        <td>$1,900.00</td>
+                        <td>Samsung</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning">
+                                <i class="bi bi-pencil"></i>
+                            </a>
+                            <button type="button" class="btn btn-sm btn-info text-white">
+                                <i class="bi bi-image"></i>
+                            </button>
+                            <a href="#" class="btn btn-sm btn-danger">
+                                <i class="bi bi-trash"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>P003</td>
+                        <td>Philips EasyKey 702 (3D Face Recognition)</td>
+                        <td>$2,688.00</td>
+                        <td>Philips</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning">
+                                <i class="bi bi-pencil"></i>
+                            </a>
+                            <button type="button" class="btn btn-sm btn-info text-white">
+                                <i class="bi bi-image"></i>
+                            </button>
+                            <a href="#" class="btn btn-sm btn-danger">
+                                <i class="bi bi-trash"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>P004</td>
+                        <td>Aqara Smart Door Lock D100</td>
+                        <td>$2,300.00</td>
+                        <td>Aqara</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning">
+                                <i class="bi bi-pencil"></i>
+                            </a>
+                            <button type="button" class="btn btn-sm btn-info text-white">
+                                <i class="bi bi-image"></i>
+                            </button>
+                            <a href="#" class="btn btn-sm btn-danger">
+                                <i class="bi bi-trash"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>P005</td>
+                        <td>Aqara Smart Door Lock A100</td>
+                        <td>$1,299.00</td>
+                        <td>Aqara</td>
                         <td>
                             <a href="#" class="btn btn-sm btn-warning">
                                 <i class="bi bi-pencil"></i>

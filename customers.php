@@ -118,6 +118,70 @@ ob_start();
                         </td>
                     </tr>
                     <tr>
+                        <td>C002</td>
+                        <td>Alice Johnson</td>
+                        <td>Female</td>
+                        <td>012-9876543</td>
+                        <td>03-10-2026</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning">
+                                <i class="bi bi-pencil"></i>
+                            </a>
+                            
+                            <a href="#" class="btn btn-sm btn-danger">
+                                <i class="bi bi-trash"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>C003</td>
+                        <td>Bob Williams</td>
+                        <td>Male</td>
+                        <td>012-5551234</td>
+                        <td>05-10-2026</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning">
+                                <i class="bi bi-pencil"></i>
+                            </a>
+                            
+                            <a href="#" class="btn btn-sm btn-danger">
+                                <i class="bi bi-trash"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>C004</td>
+                        <td>Jamal Abdillah</td>
+                        <td>Male</td>
+                        <td>011-1234567</td>
+                        <td>10-10-2026</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning">
+                                <i class="bi bi-pencil"></i>
+                            </a>
+                            
+                            <a href="#" class="btn btn-sm btn-danger">
+                                <i class="bi bi-trash"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>C005</td>
+                        <td>Emily Davis</td>
+                        <td>Female</td>
+                        <td>013-4567890</td>
+                        <td>16-10-2026</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning">
+                                <i class="bi bi-pencil"></i>
+                            </a>
+                            
+                            <a href="#" class="btn btn-sm btn-danger">
+                                <i class="bi bi-trash"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
                         <td colspan="6" class="text-center">No customers found</td>
                     </tr>
                 </tbody>
