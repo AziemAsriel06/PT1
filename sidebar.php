@@ -2,7 +2,7 @@
         <div class="p-4">
           <a href="#" class="navbar-brand">
             <div class="row">
-              <h5 class="">Jiem Sdn Bhd</h5>
+              <h5 class="">SmaDool</h5>
             </div>
           </a>
           <hr>                  
@@ -14,7 +14,7 @@
               </a>
             </li>
             <li class="nav-item mb-3">
-              <a href="" class="text-decoration-none text-white">
+              <a href="home.php#brands" class="text-decoration-none text-white">
                 <i class="bi bi-bar-chart-line-fill me-2"></i>
                 Dashboard
               </a>

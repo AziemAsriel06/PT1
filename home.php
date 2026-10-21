@@ -6,7 +6,7 @@ ob_start();
     <div class="card-body">
         <div class="row align-items-center">
             <div class="col">
-                <h2 class="mb-1"><i class="bi bi-shield-lock-fill text-primary me-2"></i>Welcome to Jiem Sdn Bhd</h2>
+                <h2 class="mb-1"><i class="bi bi-shield-lock-fill text-primary me-2"></i>Welcome to SmaDool</h2>
                 <p class="text-muted mb-0">We sell smart door locks for your home. Choose the unlock method and door type that suits you.</p>
             </div>
             <div class="col-auto">
@@ -65,7 +65,7 @@ ob_start();
     </button>
 </div>
 
-<h4 class="mb-3">Our Brands</h4>
+<h4 class="mb-3" id="brands">Our Brands</h4>
 <div class="row g-3 mb-4">
     <?php foreach (['Xiaomi', 'Samsung', 'Philips', 'Aqara'] as $brand): ?>
         <div class="col-6 col-md-3">
