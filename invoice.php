@@ -7,7 +7,7 @@ ob_start();
         <div class="row align-items-center">
             <div class="col">
                 <h2 class="mb-1">Invoice</h2>
-                <p class="text-muted mb-0">Order #O001</p>
+                <p class="text-muted mb-0">Order #O002</p>
             </div>
             <div class="col-auto">
                 <button type="button" class="btn btn-primary" onclick="window.print()">
@@ -26,7 +26,7 @@ ob_start();
                 <p class="text-muted mb-0">Sales Invoice</p>
             </div>
             <div class="col-md-6 text-md-end">
-                <strong>Invoice No.: </strong>O001<br>
+                <strong>Invoice No.: </strong>O002<br>
                 <strong>Date: </strong>2026-10-03
             </div>
         </div>
@@ -58,13 +58,13 @@ ob_start();
                     <tr>
                         <td>1</td>
                         <td>Xiaomi Smart Lock Pro</td>
-                        <td>$1,200.00</td>
+                        <td>$700.00</td>
                         <td>1</td>
-                        <td class="text-end">$1,200.00</td>
+                        <td class="text-end">$700.00</td>
                     </tr>
                     <tr><td colspan="5" class="text-center">No products added to this order</td></tr>
                 </tbody>
-                <tfoot><tr><th colspan="4" class="text-end">Grand Total</th><th class="text-end">$1,200.00</th></tr></tfoot>
+                <tfoot><tr><th colspan="4" class="text-end">Grand Total</th><th class="text-end">$700.00</th></tr></tfoot>
             </table>
         </div>
         <a href="orderdetails.php" class="btn btn-secondary"><i class="bi bi-arrow-left me-1"></i>Back to Details</a>
