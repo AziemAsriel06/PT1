@@ -56,12 +56,11 @@ ob_start();
                     <label for="product_method" class="form-label">Unlock Method <span class="text-danger" aria-hidden="true">*</span></label>
                     <select name="product_method" id="product_method" class="form-select" required>
                         <option value="">Select Method</option>
-                        <option value="Passcode">Passcode only</option>
                         <option value="Fingerprint">Fingerprint</option>
                         <option value="KeyCard">Key Card</option>
                         <option value="SmartApp">Smart App (Wi-Fi/Bluetooth)</option>
                         <option value="FaceRecognition">Face Recognition</option>
-                        <option value="AllInOne">All in One (Passcode, Fingerprint, Key Card, Smart App, Face Recognition)</option>
+                        <option value="AllInOne">All in One (Fingerprint, Key Card, Smart App, Face Recognition)</option>
                     </select>
                 </div>
  
@@ -112,7 +111,7 @@ ob_start();
                 <small class="text-muted">View and manage all products in the inventory</small>
             </div>
             <div class="col-auto">
-                <span class="badge bg-success">Total: 1 items</span>
+                <span class="badge bg-success">Total: 20 items</span>
             </div>
         </div>
  
@@ -132,9 +131,9 @@ ob_start();
                 <tbody>
                     <tr>
                         <td>P001</td>
-                        <td>Xiaomi Smart Lock Pro</td>
-                        <td>$700.00</td>
-                        <td>Xiaomi</td>
+                        <td>Touch Lock Mini F100</td>
+                        <td>RM 549.90</td>
+                        <td>Aqara</td>
                         <td>
                             <a href="#" class="btn btn-sm btn-warning">
                                 <i class="bi bi-pencil"></i>
@@ -149,8 +148,8 @@ ob_start();
                     </tr>
                     <tr>
                         <td>P002</td>
-                        <td>Samsung SHP-DP609 Push-Pull Smart Lock</td>
-                        <td>$1,900.00</td>
+                        <td>Fingerprint Lock F300</td>
+                        <td>RM 699.90</td>
                         <td>Samsung</td>
                         <td>
                             <a href="#" class="btn btn-sm btn-warning">
@@ -166,9 +165,9 @@ ob_start();
                     </tr>
                     <tr>
                         <td>P003</td>
-                        <td>Philips EasyKey 702 (3D Face Recognition)</td>
-                        <td>$2,688.00</td>
-                        <td>Philips</td>
+                        <td>Slim Fingerprint Lock F200</td>
+                        <td>RM 489.90</td>
+                        <td>Xiaomi</td>
                         <td>
                             <a href="#" class="btn btn-sm btn-warning">
                                 <i class="bi bi-pencil"></i>
@@ -183,9 +182,9 @@ ob_start();
                     </tr>
                     <tr>
                         <td>P004</td>
-                        <td>Aqara Smart Door Lock D100</td>
-                        <td>$2,300.00</td>
-                        <td>Aqara</td>
+                        <td>Fingerprint Lock Pro F500</td>
+                        <td>RM 799.90</td>
+                        <td>Philips</td>
                         <td>
                             <a href="#" class="btn btn-sm btn-warning">
                                 <i class="bi bi-pencil"></i>
@@ -200,9 +199,264 @@ ob_start();
                     </tr>
                     <tr>
                         <td>P005</td>
-                        <td>Aqara Smart Door Lock A100</td>
-                        <td>$1,299.00</td>
+                        <td>Slim Card Lock C10</td>
+                        <td>RM 279.90</td>
+                        <td>Xiaomi</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning">
+                                <i class="bi bi-pencil"></i>
+                            </a>
+                            <button type="button" class="btn btn-sm btn-info text-white">
+                                <i class="bi bi-image"></i>
+                            </button>
+                            <a href="#" class="btn btn-sm btn-danger">
+                                <i class="bi bi-trash"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>P006</td>
+                        <td>Card Access Lock C50</td>
+                        <td>RM 349.90</td>
+                        <td>Philips</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning">
+                                <i class="bi bi-pencil"></i>
+                            </a>
+                            <button type="button" class="btn btn-sm btn-info text-white">
+                                <i class="bi bi-image"></i>
+                            </button>
+                            <a href="#" class="btn btn-sm btn-danger">
+                                <i class="bi bi-trash"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>P007</td>
+                        <td>Card Lock Basic C20</td>
+                        <td>RM 299.90</td>
                         <td>Aqara</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning">
+                                <i class="bi bi-pencil"></i>
+                            </a>
+                            <button type="button" class="btn btn-sm btn-info text-white">
+                                <i class="bi bi-image"></i>
+                            </button>
+                            <a href="#" class="btn btn-sm btn-danger">
+                                <i class="bi bi-trash"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>P008</td>
+                        <td>Card Lock Plus C80</td>
+                        <td>RM 399.90</td>
+                        <td>Samsung</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning">
+                                <i class="bi bi-pencil"></i>
+                            </a>
+                            <button type="button" class="btn btn-sm btn-info text-white">
+                                <i class="bi bi-image"></i>
+                            </button>
+                            <a href="#" class="btn btn-sm btn-danger">
+                                <i class="bi bi-trash"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>P009</td>
+                        <td>Bluetooth Lock B80</td>
+                        <td>RM 429.90</td>
+                        <td>Samsung</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning">
+                                <i class="bi bi-pencil"></i>
+                            </a>
+                            <button type="button" class="btn btn-sm btn-info text-white">
+                                <i class="bi bi-image"></i>
+                            </button>
+                            <a href="#" class="btn btn-sm btn-danger">
+                                <i class="bi bi-trash"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>P010</td>
+                        <td>Wi-Fi Smart Lock S200</td>
+                        <td>RM 599.90</td>
+                        <td>Aqara</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning">
+                                <i class="bi bi-pencil"></i>
+                            </a>
+                            <button type="button" class="btn btn-sm btn-info text-white">
+                                <i class="bi bi-image"></i>
+                            </button>
+                            <a href="#" class="btn btn-sm btn-danger">
+                                <i class="bi bi-trash"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>P011</td>
+                        <td>Smart Lock Lite S100</td>
+                        <td>RM 499.90</td>
+                        <td>Xiaomi</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning">
+                                <i class="bi bi-pencil"></i>
+                            </a>
+                            <button type="button" class="btn btn-sm btn-info text-white">
+                                <i class="bi bi-image"></i>
+                            </button>
+                            <a href="#" class="btn btn-sm btn-danger">
+                                <i class="bi bi-trash"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>P012</td>
+                        <td>Wi-Fi Smart Lock S300</td>
+                        <td>RM 649.90</td>
+                        <td>Philips</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning">
+                                <i class="bi bi-pencil"></i>
+                            </a>
+                            <button type="button" class="btn btn-sm btn-info text-white">
+                                <i class="bi bi-image"></i>
+                            </button>
+                            <a href="#" class="btn btn-sm btn-danger">
+                                <i class="bi bi-trash"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>P013</td>
+                        <td>Face Lock FR300</td>
+                        <td>RM 799.90</td>
+                        <td>Xiaomi</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning">
+                                <i class="bi bi-pencil"></i>
+                            </a>
+                            <button type="button" class="btn btn-sm btn-info text-white">
+                                <i class="bi bi-image"></i>
+                            </button>
+                            <a href="#" class="btn btn-sm btn-danger">
+                                <i class="bi bi-trash"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>P014</td>
+                        <td>Face Lock FR500</td>
+                        <td>RM 949.90</td>
+                        <td>Philips</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning">
+                                <i class="bi bi-pencil"></i>
+                            </a>
+                            <button type="button" class="btn btn-sm btn-info text-white">
+                                <i class="bi bi-image"></i>
+                            </button>
+                            <a href="#" class="btn btn-sm btn-danger">
+                                <i class="bi bi-trash"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>P015</td>
+                        <td>Face Lock Lite FR200</td>
+                        <td>RM 749.90</td>
+                        <td>Aqara</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning">
+                                <i class="bi bi-pencil"></i>
+                            </a>
+                            <button type="button" class="btn btn-sm btn-info text-white">
+                                <i class="bi bi-image"></i>
+                            </button>
+                            <a href="#" class="btn btn-sm btn-danger">
+                                <i class="bi bi-trash"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>P016</td>
+                        <td>Face Lock Max FR700</td>
+                        <td>RM 1,099.90</td>
+                        <td>Samsung</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning">
+                                <i class="bi bi-pencil"></i>
+                            </a>
+                            <button type="button" class="btn btn-sm btn-info text-white">
+                                <i class="bi bi-image"></i>
+                            </button>
+                            <a href="#" class="btn btn-sm btn-danger">
+                                <i class="bi bi-trash"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>P017</td>
+                        <td>All-in-One Lock A500</td>
+                        <td>RM 899.90</td>
+                        <td>Aqara</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning">
+                                <i class="bi bi-pencil"></i>
+                            </a>
+                            <button type="button" class="btn btn-sm btn-info text-white">
+                                <i class="bi bi-image"></i>
+                            </button>
+                            <a href="#" class="btn btn-sm btn-danger">
+                                <i class="bi bi-trash"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>P018</td>
+                        <td>Ultimate Lock Pro A900</td>
+                        <td>RM 1,299.90</td>
+                        <td>Samsung</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning">
+                                <i class="bi bi-pencil"></i>
+                            </a>
+                            <button type="button" class="btn btn-sm btn-info text-white">
+                                <i class="bi bi-image"></i>
+                            </button>
+                            <a href="#" class="btn btn-sm btn-danger">
+                                <i class="bi bi-trash"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>P019</td>
+                        <td>All-in-One Lock A300</td>
+                        <td>RM 849.90</td>
+                        <td>Xiaomi</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning">
+                                <i class="bi bi-pencil"></i>
+                            </a>
+                            <button type="button" class="btn btn-sm btn-info text-white">
+                                <i class="bi bi-image"></i>
+                            </button>
+                            <a href="#" class="btn btn-sm btn-danger">
+                                <i class="bi bi-trash"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>P020</td>
+                        <td>All-in-One Lock A700</td>
+                        <td>RM 1,149.90</td>
+                        <td>Philips</td>
                         <td>
                             <a href="#" class="btn btn-sm btn-warning">
                                 <i class="bi bi-pencil"></i>

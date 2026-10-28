@@ -30,8 +30,8 @@ ob_start();
                     <label for="product_num" class="form-label">Product <span class="text-danger" aria-hidden="true">*</span></label>
                     <select name="product_num" id="product_num" class="form-select" required>
                         <option value="">Select Product</option>
-                        <option value="P001">Xiaomi Smart Lock Pro (Stock = 10)</option>
-                        <option value="P002">Samsung SHS-1321 Digital Lock (Stock = 5)</option>
+                        <option value="P001">Slim Fingerprint Lock F200 (Stock = 10)</option>
+                        <option value="P002">Fingerprint Lock F300 (Stock = 5)</option>
                     </select>
                 </div>
                 <div class="col-md-4">
@@ -65,10 +65,10 @@ ob_start();
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Xiaomi Smart Lock Pro</td>
-                        <td>$700.00</td>
+                        <td>Slim Fingerprint Lock F200</td>
+                        <td>RM 489.90</td>
                         <td>1</td>
-                        <td>$700.00</td>
+                        <td>RM 489.90</td>
                         <td>
                             <a href="#" class="btn btn-sm btn-warning"><i class="bi bi-pencil"></i></a>
                             <a href="#" class="btn btn-sm btn-danger"><i class="bi bi-trash"></i></a>
@@ -76,7 +76,7 @@ ob_start();
                     </tr>
                     <tr><td colspan="5" class="text-center">No products added to this order</td></tr>
                 </tbody>
-                <tfoot><tr><th colspan="3" class="text-end">Grand Total</th><th>$700.00</th><th></th></tr></tfoot>
+                <tfoot><tr><th colspan="3" class="text-end">Grand Total</th><th>RM 489.90</th><th></th></tr></tfoot>
             </table>
         </div>
         <a href="orders.php" class="btn btn-secondary"><i class="bi bi-arrow-left me-1"></i>Back to Orders</a>
